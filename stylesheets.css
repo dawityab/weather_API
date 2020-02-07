@@ -1,0 +1,97 @@
+body{
+	background-color: #b3b3ff;
+	font-family: Montserrat;
+}
+h2,h4{
+	color:#5c5c3d;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 10px;
+	border: solid 1px #e6ecff;
+	background-color: #b3c6ff;
+	/*font-size: 2.5rem;*/
+}
+h6{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
+.title{
+	border-radius: 10px;
+	border: solid 5px #e6ecff;
+	background-color: #b3c6ff;
+	margin-top: 20px;
+	bottom: 10px;
+	
+}
+#search{
+	text-align: center;
+	margin: 40px;
+	border: solid 2px #333300;
+	box-shadow: 10px 8px 5px;
+	border-radius: 10px;
+}
+.weather-wearing{
+	margin-top: 20px;
+	/*margin-left: 10px;*/
+	border-radius: 10px;
+	box-shadow:5px;
+	width: 100%; 
+	height: 90%;
+}
+.input-type{
+	margin: 10px;
+	border-radius: 10px;
+	width: 80%;
+	
+}
+.submit-btn, .new-search{
+	border:solid 1px #6666ff;
+	box-shadow: 5px 3px;
+	border-radius: 10px;
+	margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+.weather-wearing{
+	width:80%;
+}
+.input-type{
+	width: 70%;
+}
+
+}
+/*@media screen and (min-width: 900px) {
+.weather-wearing{
+	width:90%;
+}
+.input-type{
+	width: 70%;
+}
+
+}*/
+.weather_result{
+	/*background-color: #3366ff;*/
+	margin: 10px;
+	border-radius: 10px;
+}
+.temp,.wind,.humdity,.description{
+	background-color: #b3c6ff;
+	border: solid 1px #e6ecff;
+	margin-top: 20px;
+	color: #5c5c3d;
+	border-radius: 10px;
+	text-align: center;
+	
+
+}
+.news,.advert{
+background-color: #b3c6ff;
+	border: solid 5px #e6ecff;
+	margin-top: 20px;
+	margin:0px;
+	color: #5c5c3d;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	border-left: solid 1px #e6ecff;
