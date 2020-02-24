@@ -74,8 +74,16 @@ tr,th,td {
 		color:  #cce6ff;
 		padding: 5px;
 	}
+	#delete_btnn{
+		border:solid 0px #6666ff;
+		box-shadow: 3px;
+		border-radius: 10px;
+		margin: 10px;
+		background-color:#ff9999 ;
+		color:  #ffffff;
+		padding: 5px;
 
-
+}
 /*@media screen and (max-width: 920px) {
 .weather-wearing{
 	width:60%;

@@ -22,7 +22,7 @@ function Clicking(){
 		
 		var message = "* Please fill the require input before you click";
 		
-		console.log(message);
+		//console.log(message);
 		//alert('* Please fill the require input.');
 		$('#notify').append(message);
 		if(message){
@@ -75,7 +75,12 @@ function weatherInfo(){
 			var cell4 = tableRow.insertCell(3);
 			var cell5 = tableRow.insertCell(4);
 			var cell6 = tableRow.insertCell(5);
+			var cell7 = tableRow.insertCell(6);
 			
+
+
+
+
 			//Printing a data on the browser
 			cell1.append(city);
 			var image = new Image();
@@ -85,7 +90,17 @@ function weatherInfo(){
 			cell4.append((Math.round (wind)) + ".km/h");
 			cell5.append((Math.round (humidity)) + ".g/m3");
 			cell6.append(description);
-
+			var delete_btn = document.createElement('button');
+			delete_btn.innerHTML="Delete";
+			delete_btn.id = 'delete_btnn';
+			// delete_btn.style.background = '#ff6666';
+			// delete_btn.style.color = '#cce6ff';
+			// delete_btn.style.border = '0px solid ';
+			tableRow = cell7.appendChild(delete_btn);
+			$('.table-name tr').click(function(){
+				$(this).remove();
+				return false;
+			})
 			
 			//Increment new row 
 			row ++;
