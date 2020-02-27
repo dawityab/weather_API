@@ -22,6 +22,9 @@ h6{
 section{
 	text-align: center;
 }
+#notify{
+	color: red;
+}
 tr,th,td {
 	border: solid 1px#b3b3ff;
 	background-color:  #1a8cff; 

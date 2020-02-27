@@ -91,16 +91,17 @@ function weatherInfo(){
 			cell5.append((Math.round (humidity)) + ".g/m3");
 			cell6.append(description);
 			var delete_btn = document.createElement('button');
-			delete_btn.innerHTML="Delete";
+			delete_btn.innerHTML="Close";
 			delete_btn.id = 'delete_btnn';
 			// delete_btn.style.background = '#ff6666';
 			// delete_btn.style.color = '#cce6ff';
 			// delete_btn.style.border = '0px solid ';
 			tableRow = cell7.appendChild(delete_btn);
-			$('.table-name tr').click(function(){
-				$(this).remove();
-				return false;
-			})
+			$('#delete_btnn').on( 'click ',function(){
+			 $(this).closest ('tr').remove();
+				
+			
+			});
 			
 			//Increment new row 
 			row ++;
