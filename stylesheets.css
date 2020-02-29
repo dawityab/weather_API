@@ -138,7 +138,7 @@ tr,th,td {
 		width: 80%;
 
 	}
-	.table-head{
+	#table-head{
 		background-color:  #e6f2ff;
 		color: #3399ff;
 		padding: 10px; 
